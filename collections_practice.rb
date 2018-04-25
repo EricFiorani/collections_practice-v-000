@@ -14,5 +14,5 @@ def sort_array_char_count(array)
   non.sort + cap.sort
 end
 
-def swap_elements(["blake", "ashley", "scott"],1,2)
+def swap_elements(array)
 end
