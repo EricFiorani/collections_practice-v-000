@@ -10,3 +10,5 @@ end
 
 def sort_array_char_count(array)
   array = ["dogs", "cat", "Horses"]
+  array.sort
+end
