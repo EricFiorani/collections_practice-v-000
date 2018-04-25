@@ -15,5 +15,4 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(["blake", "ashley", "scott"],1,2)
-  swap_elements
 end
