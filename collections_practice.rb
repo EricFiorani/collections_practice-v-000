@@ -29,5 +29,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each.detect {|i| i = "a"}
+  array.find_all {|i| i[0] = "a"}
 end
