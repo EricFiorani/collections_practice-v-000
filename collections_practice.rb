@@ -13,3 +13,6 @@ def sort_array_char_count(array)
   cap, non = array.partition {|el|el[0] == el[0].upcase}
   non.sort + cap.sort
 end
+
+def swap_elements(array)
+end
