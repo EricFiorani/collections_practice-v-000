@@ -9,6 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array = ["dogs", "cat", "horses"]
-  array.sort
+  array = ["dogs", "cat", "Horses"]
+  cap, non = array.partition {|el|el[0] == el[0].upcase}
+  non.sort + cap.sort
 end
